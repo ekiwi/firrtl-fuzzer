@@ -4,7 +4,7 @@ scalaVersion := "2.12.10"
 
 scalacOptions := Seq("-deprecation", "-unchecked", "-Xsource:2.11")
 
-libraryDependencies += "edu.berkeley.cs" %% "firrtl" % "1.3"
+libraryDependencies += "edu.berkeley.cs" %% "firrtl" % "1.3.1"
 
 libraryDependencies += "com.pholser" % "junit-quickcheck-core" % "0.8"
 libraryDependencies += "com.pholser" % "junit-quickcheck-generators" % "0.8"
